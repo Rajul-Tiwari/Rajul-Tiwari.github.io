@@ -12,21 +12,27 @@
 
     /* Chane your fav color */
 
-    --hue-colors : 250 ; /* 142 green :  purple - 250 : 
+    --hue-colors : 0 ; /* 142 green :  purple - 250 : 
 
 
     /* HSL colors */
 
-    --first-color :  hsl(var(--hue-colors), 60%, 61%);
-    --first-color-second:  hsl(var(--hue-colors), 69%, 61%) ;
+
+    --first-color :  hsl(var(--hue-colors), 550%, 70%);
+  
     --first-color-alt :  hsl(var(--hue-colors), 57%, 53%);
     --first-color-lighter : hsl(var(--hue-colors), 92%, 85%) ;
-    --title-color : hsl(var(--hue-colors), 8%, 15%) ;
-    --text-color : hsl(var(--hue-colors), 8%, 45%) ;
+    
     --text-color-light : hsl(var(--hue-colors), 8%, 65%)  ;
-    --input-color :hsl(var(--hue-colors), 70%, 96%)  ;
-    --body-color : hsl(var(--hue-colors), 9%, 79%) ;
-    --container-color : rgb(255, 255, 255) ;
+    
+
+         
+    --first-color-second:  hsl(var(--hue-colors), 30%, 8%) ;
+    --title-color : hsl(var(--hue-colors), 8%, 85%) ;
+    --text-color : hsl(var(--hue-colors), 8%, 75%) ;
+    --input-color :hsl(var(--hue-colors), 29%, 16%)  ;
+    --body-color : hsl(var(--hue-colors), 28%, 12%) ;
+    --container-color : hsl(var(--hue-colors),29%,16%) ;
 
 
     /* Font & typography */
@@ -78,13 +84,15 @@
 
 /* variable dark theme */
 body.dark-theme{
-        
-    --first-color-second:  hsl(var(--hue-colors), 30%, 8%) ;
-    --title-color : hsl(var(--hue-colors), 8%, 85%) ;
-    --text-color : hsl(var(--hue-colors), 8%, 75%) ;
-    --input-color :hsl(var(--hue-colors), 29%, 16%)  ;
-    --body-color : hsl(var(--hue-colors), 28%, 12%) ;
-    --container-color : hsl(var(--hue-colors),29%,16%) ;
+    --first-color-second:  hsl(var(--hue-colors), 69%, 61%) ;
+    --title-color : hsl(var(--hue-colors), 8%, 15%) ;
+    --text-color : hsl(var(--hue-colors), 8%, 45%) ;
+    --input-color :hsl(var(--hue-colors), 70%, 96%)  ;
+    --body-color : hsl(var(--hue-colors), 15%, 79%) ;
+    --container-color : rgb(255, 255, 255) ;
+    
+    
+   
 
 
 }
