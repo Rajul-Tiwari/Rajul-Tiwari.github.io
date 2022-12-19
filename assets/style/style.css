@@ -1198,3 +1198,17 @@ services_title {
 ::-webkit-scrollbar-thumb:hover {
   background: var(--first-color-alt);
 }
+
+.section__title {
+  text-align: center;
+}
+
+#stat1 {
+  height: 280px;
+  width: 480px;
+}
+
+#stat2 {
+  height: 280px;
+  width: 480px;
+}
